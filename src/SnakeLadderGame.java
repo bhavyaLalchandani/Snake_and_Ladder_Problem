@@ -36,6 +36,10 @@ public class SnakeLadderGame {
                 if(posFirstPlayer < 0){
                     posFirstPlayer = 0;
                 }
+                // UC - 5 Exact 100
+                if(posFirstPlayer > 100){
+                    posFirstPlayer -= dieRolled;
+                }
                 System.out.println();
             }
         }
