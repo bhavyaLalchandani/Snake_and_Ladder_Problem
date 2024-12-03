@@ -11,8 +11,6 @@ public class SnakeLadderGame {
 
         // UC - 3
         System.out.println("Dice rolls by: " + dieRolled);
-        System.out.println("Enter Option");
-
         Scanner sc = new Scanner(System.in);
         // using random to get option
         int Option = (int) (Math.random() * 2 + 1);
